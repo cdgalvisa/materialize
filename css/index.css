@@ -1,0 +1,78 @@
+.Imagendefondo{
+    background: url(../img/body.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.logo{
+    margin-left: 2px;
+}
+
+.nav{
+    margin-top:30px; 
+}
+
+.redessociales{
+    margin-bottom: 10%;
+}
+
+.cuerpo_redes_sociales{
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.card-image{
+    border-color:#26294F;
+}
+
+.img_mitad{
+    height: 100%;
+}
+
+#imagenarticulo{
+    margin-left: 30px;
+    margin-top: 10%;
+}
+.textoarticulo{
+    text-align: justify;
+    margin-left: 45%;
+}
+
+.textoarticulo1{
+    text-align: justify;
+}
+.uno{
+    margin-right: 300px;
+    color: azure;    
+}
+
+#textoarticulo2{
+    color: black;
+}
+
+.autor{
+  color: black;   
+}
+
+
+@media (max-width: 700px) {
+    .nav{
+        width: 100%;
+        margin-right: 50%; 
+    }
+
+    .btn{
+        width: 100%;
+    }
+
+    .textoarticulo{
+        width: 100%;
+        margin: 10%;
+        margin-left: 0px;
+    }
+}
